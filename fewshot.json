@@ -1,0 +1,42 @@
+[
+    {
+        "question": "For 15-minute AMI data, how many categories can Bidgely disaggregate and what are they?",
+        "answer": "There are 12 categories - Heating, Cooling, EV, Always On, Pool Pump, Water Heater, Refrigerator, Lighting, Cooking, Laundry, Entertainment, PV (Solar)"
+    },
+    {
+        "question": "Gas AMI (15 min) - how many categories and what are they?",
+        "answer": "There are 3 categories - Space Heating, Water Heating, Cooking"
+    },
+    {
+        "question": "What cloud service do we run on?",
+        "answer": "Bidgely uses the Amazon Web Services (AWS) platform for data access and management."
+    },
+    {
+        "question": "How many tips are there in our library?",
+        "answer": "There are over 1,000 tips, including NBI engine suggestions"
+    },
+    {
+        "question": "Who is the longest tenured customer of Bidgely?",
+        "answer": "Hydro Ottowa"
+    },
+    {
+        "question": "How does Bidgely deal with DMV data?",
+        "answer": "Bidgely does not ingest or process DMV data. Instead, we use AI and machine learning to detect EV charging signatures buried in smart meter data for understanding the impact of EVs on the grid."
+    },
+    {
+        "question": "SMB - how many categories and what are they?",
+	"answer": "There are 5 categories that Bidgely uses to classify Small and Medium-sized Businesses (SMBs) for energy disaggregation and insights. These categories include Heating, Always On, Cooling, Operational Load, Hours of Operation"
+    },
+    {
+        "question": "How long does it take to establish accuracy with a given customer?",
+	"answer": "From an engagement standpoint, accurate detection is critical, as customers know when they use an appliance. Bidgely has used ground truth appliance data from thousands to tens of thousands of homes to measure and improve accuracy. The specific time it takes to establish accuracy with a given customer may vary based on individual usage patterns and data availability, however, Bidgely needs 13 months of data overall to normalize, and after a customer purchases EV 5-10 charging sessions (2 months to occur)"
+    },
+    {
+        "question": "When you are identifying electric heating, how do you differentiate furnace fan signatures from electric heating signatures?",
+	"answer": "When identifying electric heating, Bidgely differentiates furnace fan signatures from electric heating signatures by analyzing the electric AMI consumption data. Homes with a small amount of heating signature in the winter, which is most likely an electric component of a gas or oil heating system such as a furnace fan, are identified separately from homes with large electric heating signatures, indicating the use of electric heating systems. This analysis helps in accurately categorizing homes based on their heating type."
+    },
+    {
+        "question": "Does Bidgely have similar heat pump detection technology for natural gas heat pumps?",
+	"answer": "Yes, Bidgely's technology can detect natural gas heat pumps in addition to electric heat pumps. Our classification suite of algorithms can identify the type of HVAC and primary fuel type in use within a residence, allowing us to provide comprehensive insights into energy usage and optimize HVAC usage."
+    }
+]

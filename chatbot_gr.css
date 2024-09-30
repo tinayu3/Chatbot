@@ -1,0 +1,51 @@
+#chat-container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 300px;
+    z-index: 1000;
+}
+
+#header {
+    background-color: #0047AB;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.chat-interface {
+    background-color: white;
+    border: 2px solid #0047AB;
+    border-radius: 10px;
+    padding: 20px;
+    max-height: 500px;
+    overflow-y: auto;
+    height: 400px;  /* Set height same as login interface */
+}
+
+.input-row {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.input-box {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+#send-btn {
+    background-color: #0047AB;
+    color: white;
+    padding: 5px 10px;  /* Adjust padding to make the button smaller */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.timeline {
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0;
+}
